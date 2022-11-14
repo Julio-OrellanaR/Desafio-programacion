@@ -5,5 +5,7 @@ const router = Router()
 
 // routes
 router.get("/", desafioController.getRaiz)
+router.post("/File", desafioController.postArchivo)
+router.get("/showInformation", desafioController.showReport)
 
 export default router
